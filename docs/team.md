@@ -2,104 +2,182 @@
 
 ## Overview
 
-Okkazo was developed as a Final Year Capstone Project through a collaborative development process. The project adopted a distributed workflow where multiple contributors worked across different repositories and services, enabling parallel development, testing, integration, and documentation.
+Okkazo was developed as a Final Year Capstone Project through a collaborative development process. The project adopted a distributed development workflow where multiple contributors worked across the frontend, backend, and mobile applications. While responsibilities were shared, each member took ownership of different modules and collaborated throughout the development lifecycle.
 
 ---
 
-# Development Approach
+# Development Workflow
 
-The project followed a collaborative Git workflow with contributions spanning frontend, backend, mobile development, testing, bug fixes, documentation, and deployment.
+The team followed a collaborative Git workflow that enabled parallel development across multiple repositories.
 
-Each team member contributed to multiple repositories based on project requirements, resulting in a shared codebase with collaborative ownership.
+Development activities included:
+
+- Feature Development
+- API Development
+- Frontend Implementation
+- Mobile Development
+- Backend Integration
+- Testing & Debugging
+- Documentation
+- Deployment Support
+
+Every team member contributed to different parts of the project, ensuring continuous integration and collaborative ownership of the codebase.
 
 ---
 
-# My Responsibilities
+# My Contributions
 
-As one of the primary backend developers, my responsibilities included:
+## 🏗️ System Design & Architecture
 
-## Backend Architecture
-
-- Designed the overall backend architecture.
-- Planned the microservices structure.
-- Designed service interactions and API communication.
-
----
-
-## Spring Boot Services
-
-Developed and maintained the following services:
-
-- API Gateway
-- Eureka Server
-- Authentication Service
+I was primarily responsible for designing the backend architecture of the platform.
 
 Responsibilities included:
 
-- Service configuration
-- Request routing
-- Service discovery
-- Authentication & Authorization
-- JWT implementation
-- Backend integration
+- Designing the microservices architecture
+- Planning service interactions
+- Designing REST APIs
+- Structuring backend modules
+- Backend integration planning
 
 ---
 
-## Node.js Development
+## ☕ Spring Boot Development
 
-Developed the **Event Service** and contributed to additional Node.js backend services during the project.
+Designed and developed all Java-based infrastructure services.
 
-Responsibilities included:
+### API Gateway
+
+- Request Routing
+- Centralized API Entry Point
+- Gateway Configuration
+- Request Forwarding
+
+### Eureka Server
+
+- Service Discovery
+- Service Registration
+- Dynamic Service Lookup
+- Health Monitoring
+
+### Authentication Service
+
+- User Authentication
+- User Registration
+- Login System
+- JWT Authentication
+- Authorization
+- Password Encryption
+
+---
+
+## 🟢 Node.js Development
+
+Primary developer of:
+
+- Event Service
+
+Also contributed to multiple backend services throughout the project lifecycle, including:
 
 - REST API development
 - Business logic implementation
 - Database integration
-- Service communication
-- Bug fixing and feature development
-
----
-
-## React Native Mobile Application
-
-Implemented the functional aspects of the React Native application, including:
-
-- Backend API integration
-- Authentication flow
-- Navigation
-- State management
-- Business logic
 - Feature implementation
-
-> The application's UI/UX design was developed collaboratively by the team.
-
----
-
-## Additional Contributions
-
+- Bug fixing
 - Backend integration
-- API design
-- Docker configuration
-- Code reviews
-- Testing and debugging
-- Documentation
 
 ---
 
-# Team Collaboration
+## ⚛️ React Frontend Development
 
-The project was developed using a collaborative workflow where contributors worked across multiple repositories.
+Contributed to several major modules of the web application.
 
-Team responsibilities included:
+Implemented features for:
 
-- Frontend Development
-- Backend Development
-- Mobile Development
-- Testing
-- Documentation
-- Bug Fixes
-- Deployment Support
+### Public Pages
 
-Development was managed using Git and GitHub, allowing contributors to work on features independently before integration.
+- Landing Page
+- Event Listing
+- Event Details
+- Public Navigation
+
+### User Module
+
+- User Authentication Pages
+- User Dashboard
+- User Profile
+- Account Management
+- Event Registration
+- Booking Management
+- User-related Features
+
+### Vendor Module
+
+Contributed to vendor-related functionality including:
+
+- Vendor Dashboard
+- Vendor Management Pages
+- Vendor Features
+- Backend Integration
+
+Responsibilities included:
+
+- API Integration
+- State Management
+- Component Development
+- Feature Implementation
+- Bug Fixing
+
+---
+
+## 📱 React Native Mobile Application
+
+Implemented the functional aspects of the mobile application.
+
+Responsibilities included:
+
+- Authentication Flow
+- Navigation
+- Backend API Integration
+- State Management
+- Business Logic
+- Feature Implementation
+- User Interaction Flow
+
+> The application's UI/UX design was developed collaboratively by the team, while I primarily focused on implementing functionality and backend integration.
+
+---
+
+## 🐳 DevOps & Integration
+
+Contributed to:
+
+- Docker Configuration
+- Service Integration
+- Environment Configuration
+- Backend Deployment Support
+
+---
+
+## 🧪 Testing & Debugging
+
+Participated in:
+
+- API Testing
+- Backend Debugging
+- Frontend Bug Fixes
+- Integration Testing
+- Feature Validation
+
+---
+
+## 📖 Documentation
+
+Contributed to:
+
+- Technical Documentation
+- Project Documentation
+- Backend Documentation
+- API Documentation
 
 ---
 
@@ -108,12 +186,10 @@ Development was managed using Git and GitHub, allowing contributors to work on f
 ## Frontend
 
 - React
+- React Native
 - Tailwind CSS
 - Vite
-
-## Mobile
-
-- React Native
+- Axios
 
 ## Backend
 
@@ -130,27 +206,36 @@ Development was managed using Git and GitHub, allowing contributors to work on f
 
 - Docker
 - Docker Compose
+- Eureka Service Discovery
+
+---
+
+# Collaboration
+
+Okkazo was built as a collaborative project where contributors worked across multiple repositories. Team members regularly collaborated on implementation, testing, integration, and debugging to ensure consistency across the platform.
+
+The project demonstrates collaborative software engineering practices using Git and GitHub, enabling independent feature development while maintaining a unified codebase.
 
 ---
 
 # Project Highlights
 
-- Polyglot Microservices Architecture
-- Distributed Backend Services
+- Distributed Microservices Architecture
+- Polyglot Backend (Spring Boot + Node.js)
 - API Gateway
 - Eureka Service Discovery
 - JWT Authentication
 - RESTful APIs
-- Cross-Platform Mobile Application
-- Containerized Deployment
+- React Web Application
+- React Native Mobile Application
+- Dockerized Deployment
+- Modular & Scalable Design
 
 ---
 
 # Acknowledgements
 
-This project was completed as part of our Final Year Capstone Project. Every contributor played an important role in designing, implementing, testing, and improving the platform.
-
-The project reflects a collaborative effort aimed at building a scalable and modular event management ecosystem.
+Okkazo was successfully completed as a Final Year Capstone Project through the collective efforts of all contributors. The project reflects teamwork, collaborative software development, and a shared commitment to building a scalable event management platform.
 
 ---
 
@@ -159,3 +244,4 @@ The project reflects a collaborative effort aimed at building a scalable and mod
 - [Architecture](architecture.md)
 - [Microservices](microservices.md)
 - [Project Structure](project-structure.md)
+- [Roadmap](roadmap.md)
