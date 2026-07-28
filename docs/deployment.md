@@ -48,7 +48,7 @@ Before running the project, ensure the following software is installed:
 # Clone Repository
 
 ```bash
-git clone https://github.com/<username>/Okkazo.git
+git clone https://github.com/NikhilNaik23/Okkazo.git
 cd Okkazo
 ```
 
