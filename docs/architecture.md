@@ -10,8 +10,6 @@ This architecture enables better scalability, maintainability, fault isolation, 
 
 # Architecture Diagram
 
-> Replace this with the architecture diagram.
-
 ![Architecture](../diagrams/architecture.png)
 
 ---
