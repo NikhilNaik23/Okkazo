@@ -30,6 +30,17 @@ This repository serves as the **official documentation hub** for the Okkazo ecos
 
 ---
 
+# 🔗 Project Ecosystem
+
+Okkazo consists of four repositories:
+
+- 📚 **Documentation:** https://github.com/NikhilNaik23/Okkazo
+- ⚙️ **Backend:** https://github.com/NikhilNaik23/Okkazo-Backend
+- 💻 **Frontend:** https://github.com/NikhilNaik23/Okkazo-Frontend
+- 📱 **Mobile:** https://github.com/NikhilNaik23/Okkazo-Mobile
+
+---
+
 # 🏗 System Architecture
 
 > **High-Level Architecture Diagram**
@@ -55,14 +66,14 @@ This repository serves as the **official documentation hub** for the Okkazo ecos
 
 ---
 
-# 🧩 Project Repositories
+# 📦 Project Repositories
 
 | Repository | Description |
 |------------|-------------|
-| Okkazo | Official Documentation |
-| Okkazo-Frontend | React Web Application |
-| Okkazo-Backend | Microservices Backend |
-| Okkazo-Mobile | Mobile Application |
+| **[Okkazo](https://github.com/NikhilNaik23/Okkazo)** | 📚 Official documentation and project overview |
+| **[Okkazo-Backend](https://github.com/NikhilNaik23/Okkazo-Backend)** | ⚙️ Spring Boot & Node.js microservices |
+| **[Okkazo-Frontend](https://github.com/NikhilNaik23/Okkazo-Frontend)** | 💻 React web application |
+| **[Okkazo-Mobile](https://github.com/NikhilNaik23/Okkazo-Mobile)** | 📱 React Native mobile application |
 
 ---
 
